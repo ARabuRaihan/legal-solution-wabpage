@@ -47,7 +47,7 @@
  <header>
 
   <!-- navbar section -->
-   <section>
+   <section class="lg:max-w-6xl md:max-w-5xl mx-auto ">
     <div class="navbar bg-base-100">
   <div class="navbar-start">
     <div class="dropdown">
@@ -68,20 +68,50 @@
       <ul
         tabindex="0"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+      <li class="text-gray-500"><a>Home</a></li>
+      <li class="text-gray-500"><a class="">Services</a></li>
+      <li class="text-gray-500"><a>Cases </a></li>
+      <li class="text-gray-500"><a>Blog</a></li>
+      <li class="text-gray-500"><a>Contact Us </a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl">daisyUI</a>
+    <div class="flex justify-center items-center">
+      <img class="h-6 w-6 mx-0" src="./images/business.png" alt="">
+      <a class="sm:btn btn-ghost text-xl mx-0"><a class="btn btn-ghost text-xl">Justice</a></a>
+    </div>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li><a>Item 3</a></li>
+    <ul class="menu menu-horizontal px-1 md:text-center"> 
+      <li class="text-gray-500"><a>Home</a></li>
+      <li class="text-gray-500"><a class="">Services</a></li>
+      <li class="text-gray-500"><a>Cases </a></li>
+      <li class="text-gray-500"><a>Blog</a></li>
+      <li class="text-gray-500"><a>Contact Us </a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Button</a>
+    <a class="btn bg-bg-primary py-5 lg:px-8 text-white">Free Consultation</a>
+  </div>
+</div>
+   </section>
+
+   <!-- search banner section -->
+   <section class="lg:max-w-6xl md:max-w-5xl mx-auto  lg:my-28 my-20 md:px-30">
+      <div
+  class="hero lg:min-h-screen"
+  style="background-image: url('./images/banner.png');">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-xl">
+      <h1 class="mb-5 text-5xl font-bold font-EB-Garamond">We Provide Effective Legal Solutions</h1>
+      <p class="mb-5">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+      </p>
+      <div>
+        <input class="py-3 px-6 " type="search" name="" id="" placeholder="Search your services" required>
+        <button class="btn bg-bg-primary text-white">Get Started</button>
+      </div>
+    </div>
   </div>
 </div>
    </section>
